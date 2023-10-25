@@ -1,0 +1,76 @@
+.produk-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.header {
+    background-color: #007bff;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+
+
+.produk-card {
+    width: 30%;
+    margin-bottom: 20px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.produk-card h2 {
+    color: #333;
+}
+
+.produk-card p {
+    margin-bottom: 10px;
+}
+
+.produk-image {
+    max-width: 100%;
+    max-height: 200px; 
+    margin-bottom: 10px;
+}
+
+.form-group {
+    margin-bottom: 10px;
+}
+
+.form-input {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 100%;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+.footer {
+    text-align: center;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #f8f8f8;
+    padding: 10px 0;
+}
+
+.beli-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.beli-button:hover {
+    background-color: #0056b3;
+}
